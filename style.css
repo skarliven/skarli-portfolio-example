@@ -10,13 +10,13 @@ body {
   transition: color 0.5s;
   transition: background 0.5s;
 
-  --dark-background: #253a52;
-  --dark-primary: #FFFFE3;
+  --dark-background: #16161a;
+  --dark-primary: #fffffe;
   --dark-link: #A9FE75;
 
-  --light-background: #ffffe3;
+  --light-background: #faeee7;
   --light-primary: #253a52;
-  --light-link: #1348da;
+  --light-link: #ff8ba7;
 
   --background: var(--light-background);
   --primary: var(--light-primary);
@@ -94,6 +94,10 @@ header .controls {
   min-width: 320px;
   background: #888;
   border-radius: 160px;
+  transition: all .5s;
+}
+.bio .profile-img:hover {
+  transform: scale(1.2) rotate(5deg);
 }
 
 @media (max-width: 1024px) {
